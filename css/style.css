@@ -1,0 +1,251 @@
+
+.navbar {
+    background-color: #0b132b;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white;
+}
+
+span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+/* change hamburger button border color */
+button.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.intro-section {
+    position: relative;
+    text-align: center;
+    color: #0b132b;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+    margin-top: 25px;
+
+}
+
+#avatar{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    animation-name: floating_one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+/*.floating-one {*/
+/*    animation-name: floating_one;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: ease-in-out;*/
+/*}*/
+
+/*.floating-two {*/
+/*    animation-name: floating_two;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: ease-in-out;*/
+/*}*/
+
+#work-section {
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#work-section h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: #0b132b;
+    font-weight: bolder;
+
+}
+
+.card {
+    height: 100%;
+    border-radius: 25px;
+
+}
+
+.card-link {
+    position: absolute;
+    padding-bottom: 2%;
+    bottom: 0;
+    padding-top: 2%;
+    left: 44%;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+
+
+@keyframes floating_one {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 20px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+@keyframes floating_two {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, -40px);
+    }
+    to {
+        transform: translate(0, 0px);
+    }
+}
+
+#work-section.container-fluid {
+    width: 95%;
+}
+
+#contact_section {
+    background-color: #253237;
+    margin-top: 20px;
+    height: 250px;
+    position: relative;
+}
+
+.contact-icons {
+    position: absolute;
+    font-size: 25px;
+    bottom: 12%;
+    left: 50%;
+    color: #bababa;
+}
+
+.contact-icons:hover {
+    color: #0b132b;
+}
+
+#mail_div {
+    top: 5%;
+    left: 5%;
+    color: white;
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#mail_div a {
+    color: #ff7731;
+}
+
+/*#github-ic, #stackoverflow-ic, #linkedin-ic, #dribbble-ic, #google-play-ic {*/
+/*    bottom: 30px;*/
+/*}*/
+
+
+#stackoverflow-ic {
+    margin-left: 33px;
+}
+
+#linkedin-ic {
+    margin-left: -63px;
+}
+
+#dribbble-ic {
+    margin-left: -33px;
+}
+
+#google-play-ic {
+    margin-left: 63px;
+}
+
+#copyright-footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    font-size: 0.7em;
+    color: white;
+    bottom: 0;
+}
+
+@media (min-width: 1281px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+}
+
+
+
